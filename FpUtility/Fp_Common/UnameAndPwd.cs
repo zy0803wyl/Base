@@ -1,0 +1,14 @@
+﻿namespace FpUtility.Fp_Common
+{
+    public class UnameAndPwd
+    {
+        public string UserName { get; set; }
+        public string PassWord { get; set; }
+
+        public UnameAndPwd(string username, string password)
+        {
+            this.UserName = username;
+            this.PassWord = password;
+        }
+    }
+}
