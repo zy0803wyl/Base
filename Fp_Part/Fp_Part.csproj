@@ -44,8 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ICallApi.cs" />
-    <Compile Include="CallApi.cs" />
+    <Compile Include="Fp_CallApi\ICallApi.cs" />
+    <Compile Include="Fp_CallApi\CallApi.cs" />
     <Compile Include="Fp_Common\AttributeHelper.cs" />
     <Compile Include="Fp_Common\ReplaceResStr.cs" />
     <Compile Include="Fp_Common\CookieHelper.cs" />
@@ -79,8 +79,9 @@
     <Compile Include="Fp_Model\User.cs" />
     <Compile Include="Fp_Model\UserFields.cs" />
     <Compile Include="Fp_Session.cs" />
-    <Compile Include="HttpHelper.cs" />
-    <Compile Include="HttpProc.cs" />
+    <Compile Include="Fp_CallApi\HttpHelper.cs" />
+    <Compile Include="Fp_CallApi\HttpProc.cs" />
+    <Compile Include="IObj.cs" />
     <Compile Include="Login.cs" />
     <Compile Include="Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

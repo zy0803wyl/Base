@@ -45,67 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fp_BLL\FpRelated\Boxes.cs" />
-    <Compile Include="Fp_BLL\FpRelated\Freezers.cs" />
-    <Compile Include="Fp_BLL\FpRelated\Get_Perfect_Box.cs" />
-    <Compile Include="Fp_BLL\FpRelated\Location_Info.cs" />
-    <Compile Include="Fp_BLL\FpRelated\SampleGroup.cs" />
-    <Compile Include="Fp_BLL\FpRelated\Samples.cs" />
-    <Compile Include="Fp_BLL\FpRelated\SampleSocrce.cs" />
-    <Compile Include="Fp_BLL\FpRelated\Subdivisions.cs" />
-    <Compile Include="Fp_BLL\FpRelated\TestData.cs" />
-    <Compile Include="Fp_BLL\FpRelated\Token.cs" />
-    <Compile Include="Fp_BLL\FpRelated\UserFields.cs" />
-    <Compile Include="Fp_BLL\FpRelated\Users.cs" />
-    <Compile Include="Fp_Common\EncodeAndDecodeString.cs" />
-    <Compile Include="Fp_Common\Fp_Control_parameters.cs" />
-    <Compile Include="Fp_Common\Fp_Msg.cs" />
-    <Compile Include="Fp_DAL\CallApi.cs" />
-    <Compile Include="FpUtility.cs" />
-    <Compile Include="Fp_Common\ConvertResStr.cs" />
-    <Compile Include="Fp_Common\SessionHelper.cs" />
-    <Compile Include="Fp_Common\UnameAndPwd.cs" />
-    <Compile Include="Fp_BLL\ValidationData.cs" />
-    <Compile Include="Fp_Common\AttributeHelper.cs" />
-    <Compile Include="Fp_Common\CookieHelper.cs" />
-    <Compile Include="Fp_Common\FpJsonHelper.cs" />
-    <Compile Include="Fp_Common\Fp_Enum.cs" />
-    <Compile Include="Fp_Common\ValidationData.cs" />
-    <Compile Include="Fp_Common\XmlHelper\DirFile.cs" />
-    <Compile Include="Fp_Common\XmlHelper\SysHelper.cs" />
-    <Compile Include="Fp_Common\XmlHelper\XmlHelper.cs" />
-    <Compile Include="Fp_Common\XmlHelper\XMLProcess.cs" />
-    <Compile Include="Fp_DAL\HttpHelper.cs" />
-    <Compile Include="Fp_DAL\HttpProc.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\ArcSample.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\AuditRec.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\Box.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\BoxType.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\Box_Path.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\Freezer.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\Location.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\Role.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\Sample.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\SampleSourceTypes.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\Samples_Trashbin.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\SampleTypes.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\Sample_Group.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\Sample_Info.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\Sample_Out.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\Sample_Source.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\Sample_Source_Info.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\Subdivision.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\User.cs" />
-    <Compile Include="Fp_Model\FpReturnModel\UserFields.cs" />
-    <Compile Include="Fp_Model\NameAndPwd.cs" />
-    <Compile Include="Login.cs" />
-    <Compile Include="Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Fp_Model\Fp_Method\" />
-    <Folder Include="Fp_Session\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
